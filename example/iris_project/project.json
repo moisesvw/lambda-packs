@@ -1,0 +1,10 @@
+{
+  "name": "iris_project",
+  "description": "Iris flower species classifier",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python3.6",
+  "handler": "main.entry_point",
+  "role": "arn:aws:iam::youraccount:role/iris_project_lambda_function",
+  "environment": {}
+}
